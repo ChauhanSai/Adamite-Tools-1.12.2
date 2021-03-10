@@ -1,0 +1,15 @@
+itemGroup.adamitetools=Adamite Tools
+item.adamitetools.adamite.name=Adamite
+item.adamitetools.adamite_axe.name=Adamite Axe
+item.adamitetools.adamite_hoe.name=Adamite Hoe
+item.adamitetools.adamite_pickaxe.name=Adamite Pickaxe
+item.adamitetools.adamite_spade.name=Adamite Shovel
+item.adamitetools.adamite_sword.name=Adamite Sword
+item.adamitetools.adamite_chew.name=Adamite Chew
+item.adamitetools.adamite_helmet.name=Adamite Helmet
+item.adamitetools.adamite_chestplate.name=Adamite Chestplate
+item.adamitetools.adamite_leggings.name=Adamite Leggings
+item.adamitetools.adamite_boots.name=Adamite Boots
+
+tile.adamitetools.adamite_block.name=Adamite Block
+tile.adamitetools.adamite_ore.name=Adamite Ore

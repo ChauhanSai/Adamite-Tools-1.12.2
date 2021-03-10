@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "O O",
+    "O O"
+  ],
+  "key":
+  {
+    "O":
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotAdamite"
+    }
+  },
+  "result":
+  {
+    "item": "adamitetools:adamite_boots",
+    "count": 1
+  }
+}

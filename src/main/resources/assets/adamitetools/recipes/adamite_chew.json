@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key":
+  {
+    "O":
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotAdamite"
+    },
+    "#":
+    {
+      "item": "minecraft:apple"
+    }
+  },
+  "result":
+  {
+    "item": "adamitetools:adamite_chew",
+    "count": 8
+  }
+}

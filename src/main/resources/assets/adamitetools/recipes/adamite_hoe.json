@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "OO",
+    " S",
+    " S"
+  ],
+  "key":
+  {
+    "O":
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotAdamite"
+    },
+    "S":
+    {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+  "result":
+  {
+    "item": "adamitetools:adamite_hoe",
+    "count": 1
+  }
+}
