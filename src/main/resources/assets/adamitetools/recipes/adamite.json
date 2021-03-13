@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "O"
+  ],
+  "key":
+  {
+    "O":
+    {
+      "item": "adamitetools:adamite_block"
+    }
+  },
+  "result":
+  {
+    "item": "adamitetools:adamite",
+    "count": 9
+  }
+}

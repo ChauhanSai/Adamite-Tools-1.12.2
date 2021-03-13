@@ -16,3 +16,5 @@ tile.adamitetools.adamite_block.name=Adamite Block
 tile.adamitetools.adamite_ore.name=Adamite Ore
 
 fluid.moltenadamite=Molten Adamite
+
+material.adamitetools.adamite.name=Adamite
