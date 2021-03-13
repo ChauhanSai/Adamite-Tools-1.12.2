@@ -1,4 +1,5 @@
 itemGroup.adamitetools=Adamite Tools
+
 item.adamitetools.adamite.name=Adamite
 item.adamitetools.adamite_axe.name=Adamite Axe
 item.adamitetools.adamite_hoe.name=Adamite Hoe
@@ -13,3 +14,5 @@ item.adamitetools.adamite_boots.name=Adamite Boots
 
 tile.adamitetools.adamite_block.name=Adamite Block
 tile.adamitetools.adamite_ore.name=Adamite Ore
+
+fluid.moltenadamite=Molten Adamite

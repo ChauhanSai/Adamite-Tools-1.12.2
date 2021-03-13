@@ -4,10 +4,13 @@ import ChauhanSaiMC.AdamiteTools.handlers.FurnaceRecipesHandler;
 import ChauhanSaiMC.AdamiteTools.handlers.OreDictionaryHandler;
 import ChauhanSaiMC.AdamiteTools.handlers.proxy.IProxy;
 import ChauhanSaiMC.AdamiteTools.init.ModBlocks;
+import ChauhanSaiMC.AdamiteTools.init.ModFluids;
 import ChauhanSaiMC.AdamiteTools.init.ModItems;
+import ChauhanSaiMC.AdamiteTools.integrations.Integrations;
 import ChauhanSaiMC.AdamiteTools.worldgen.OreGeneration;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -31,10 +34,17 @@ public class AdamiteTools {
     @SidedProxy(clientSide = "ChauhanSaiMC.AdamiteTools.handlers.proxy.ClientProxy",serverSide = "ChauhanSaiMC.AdamiteTools.handlers.proxy.ServerProxy")
     public static IProxy proxy;
 
+    static {
+        FluidRegistry.enableUniversalBucket();
+    }
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ModItems.preInit();
         ModBlocks.preInit();
+        ModFluids.preInit();
+        Integrations.preInit();
+        proxy.preInit();
     }
 
     @Mod.EventHandler
@@ -42,6 +52,7 @@ public class AdamiteTools {
         proxy.init();
         OreDictionaryHandler.init();
         FurnaceRecipesHandler.init();
+        Integrations.Init();
         GameRegistry.registerWorldGenerator(new OreGeneration(),2);
     }
 }
